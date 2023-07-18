@@ -25,7 +25,7 @@ std::string decryptMessage(const std::string& encryptedMessage, const std::strin
 
 int main(int argc, char* argv[]) {
     if (argc != 2) {
-        std::cerr << "Invalid number of arguments. Usage: decryptor <input_file>" << std::endl;
+        std::cerr << "Invalid number of arguments. Usage: decode <input_file>" << std::endl;
         return 1;
     }
 
